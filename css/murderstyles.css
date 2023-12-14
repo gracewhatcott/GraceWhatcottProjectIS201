@@ -1,0 +1,56 @@
+/* Resetting default margin and padding */
+body, h1, h2, p, ul, ol {
+    margin: 0;
+    padding: 0;
+  }
+  
+  body {
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #ffecd8; /* background color */
+    color: #000000; /* Font color */
+  }
+  
+  header {
+    background-color:rgb(149, 15, 15);
+    text-align: center;
+    color: #ffecd8;
+    padding: 20px;
+  }
+
+  nav{
+    background-color: rgb(149, 15, 15);
+    color: black;
+    padding: 5px;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 2%;
+  }
+
+  nav ul li a {
+    color: #ffecd8;
+    text-decoration: none;
+  }
+  
+  main {
+    
+    padding: 20px;
+  }
+  
+  section {
+    margin-bottom: 30px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(120, 13, 13)000;
+    color: #fff;
+  }
+  
